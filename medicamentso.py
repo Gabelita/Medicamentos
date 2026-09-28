@@ -275,7 +275,7 @@ filtros = html.Div([
     html.P("Deja un filtro vacío para ver todos los datos.",
            style={"color": AZUL_CLARO, "fontSize": "14px", "marginTop": "24px"}),
 ], className="p-4", style={"backgroundColor": AZUL_OSCURO, "minHeight": "100vh",
-                           "position": "sticky", "top": 0, "zIndex": 1000}})
+                           "position": "sticky", "top": 0, "zIndex": 1000})
 
 # Pestaña 1: Resumen (puntos 1 a 4)
 tab_resumen = html.Div([
